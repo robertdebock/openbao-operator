@@ -2,6 +2,27 @@
 
 Release notes are generated and maintained via **release-please** based on **Conventional Commits**.
 
+## [0.6.0](https://github.com/dc-tec/openbao-operator/compare/0.5.1...0.6.0) (2026-10-08)
+
+
+### Features
+
+* **auth:** isolate controller JWTs by target ([#768](https://github.com/dc-tec/openbao-operator/issues/768)) ([b3bd17a](https://github.com/dc-tec/openbao-operator/commit/b3bd17a8f18e5f70ceafe3cf941586a47062922a))
+* **backup:** schedule disposable restore tests ([#783](https://github.com/dc-tec/openbao-operator/issues/783)) ([80b4097](https://github.com/dc-tec/openbao-operator/commit/80b409728b9c84db52b0c52efc0c61a6e173a265))
+* **certs:** use native TLS certificate reload on OpenBao 2.7 ([#767](https://github.com/dc-tec/openbao-operator/issues/767)) ([867c613](https://github.com/dc-tec/openbao-operator/commit/867c613203f7ffa80f70f97843c0b312d95ff74e))
+* **policies:** reconcile administrator-approved OpenBao policies ([#765](https://github.com/dc-tec/openbao-operator/issues/765)) ([4822e59](https://github.com/dc-tec/openbao-operator/commit/4822e595eed80af436eebb314aaa9f01c09da223))
+* **restore:** guard submission and manage administrator recovery ([#780](https://github.com/dc-tec/openbao-operator/issues/780)) ([51aa2d5](https://github.com/dc-tec/openbao-operator/commit/51aa2d521da34fa1311b7d78e3b0766a10e35b11))
+* **restore:** provision retained and disposable recovery targets ([#782](https://github.com/dc-tec/openbao-operator/issues/782)) ([d15c0dd](https://github.com/dc-tec/openbao-operator/commit/d15c0dd21851a76bf39ff111a052eee850aa1b40))
+* **tls:** configure hybrid post-quantum key exchange ([#776](https://github.com/dc-tec/openbao-operator/issues/776)) ([b99f7df](https://github.com/dc-tec/openbao-operator/commit/b99f7df00d9b5ebdd2f2afae74c1989a15d9a96a))
+
+
+### Bug Fixes
+
+* **ci:** separate restore lanes and pin integration tooling ([#784](https://github.com/dc-tec/openbao-operator/issues/784)) ([8087502](https://github.com/dc-tec/openbao-operator/commit/80875025186c1ce00aa7a165763becc9733e3dc1))
+* **ci:** update vulnerable release tooling dependencies ([90f906e](https://github.com/dc-tec/openbao-operator/commit/90f906eccda3877f8e38e65218bda80a1e6bd49b))
+* **deps:** patch release-please Handlebars vulnerabilities ([#787](https://github.com/dc-tec/openbao-operator/issues/787)) ([0c6cc72](https://github.com/dc-tec/openbao-operator/commit/0c6cc726cd51aedc3e7fa11acf8fe14ea4c164ea))
+* **restore:** bound snapshot staging and disable executor retries ([#779](https://github.com/dc-tec/openbao-operator/issues/779)) ([cc3c634](https://github.com/dc-tec/openbao-operator/commit/cc3c634ad21bc8a73fddee5b54f941ddf465e46c))
+
 ## [0.5.1](https://github.com/dc-tec/openbao-operator/compare/0.5.0...0.5.1) (2026-09-23)
 
 
